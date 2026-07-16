@@ -4,9 +4,9 @@
 
 - Package ID: `com.actionfit.lava-rush.theme.catmerge`
 - Display name: ActionFit Lava Rush Cat Merge Theme
-- Repository: `https://github.com/ActionFitGames/LavaRushCatMergeTheme.git`
-- Repository visibility: Private
-- Current package version at generation time: `0.1.1`
+- Repository: `https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git`
+- Repository visibility: Public
+- Current package version at generation time: `0.1.2`
 - Unity version: `6000.2`
 - Runtime dependencies: `com.actionfit.lava-rush.ui@0.1.1` and `com.unity.modules.audio@1.0.0`
 
@@ -33,7 +33,7 @@ Requested router entry:
 - Version `0.1.1` contains no project binary assets or third-party content. The palette and code are the complete released candidate surface.
 - `Documentation/AssetProvenance.md` is the shipped inclusion/exclusion matrix, and `Third Party Notices.md` must remain aligned with it.
 - Existing Cat Merge LavaRush assets, prefabs, `.meta` files, and Addressable keys stay in their current project paths.
-- A later asset-bearing version requires ownership/license evidence for every file, a single canonical copy, explicit GUID/reference migration approval, and consumer validation. Private visibility does not waive that review.
+- A later asset-bearing version requires ownership/license evidence for every file, a single canonical copy, explicit GUID/reference migration approval, and consumer validation. Public visibility does not waive that review.
 
 ## Package Tools Menu
 
@@ -50,5 +50,5 @@ Requested router entry:
 ## Metadata And Release
 
 - `package.json` owns identity, version, Unity version, and dependency.
-- `Editor/PackageInfo/ActionFitPackageInfo_SO.asset` owns repository name `LavaRushCatMergeTheme`, Private visibility, Korean description, and release note.
+- `Editor/PackageInfo/ActionFitPackageInfo_SO.asset` owns repository name `LavaRushCatMergeTheme`, Public visibility, Korean description, and release note.
 - Publishing is manual through Custom Package Manager. Do not create repositories, push, tag, or append catalog rows without separate authorization.

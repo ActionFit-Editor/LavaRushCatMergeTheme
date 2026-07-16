@@ -1,18 +1,18 @@
 # ActionFit Lava Rush Cat Merge Theme (`com.actionfit.lava-rush.theme.catmerge`)
 
-A private, redistribution-safe Cat Merge presentation preset for `com.actionfit.lava-rush.ui`. It contains a package-owned color palette and a ready-to-use `LavaRushCatMergePresentation` while intentionally excluding unverified project binaries.
+A public, redistribution-safe Cat Merge presentation preset for `com.actionfit.lava-rush.ui`. It contains a package-owned color palette and a ready-to-use `LavaRushCatMergePresentation` while intentionally excluding unverified project binaries.
 
 The package declares Unity's built-in `com.unity.modules.audio@1.0.0` because the presentation synthesizes its UI cues at runtime.
 
 ## Install
 
-After the private candidates are published, add:
+After the public packages are published, add:
 
 ```json
 {
   "dependencies": {
-    "com.actionfit.lava-rush.ui": "https://github.com/ActionFitGames/LavaRushUI.git#0.1.1",
-    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFitGames/LavaRushCatMergeTheme.git#0.1.1"
+    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.1.1",
+    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.1.2"
   }
 }
 ```
@@ -30,4 +30,4 @@ The package contains no copied LavaRush PNG, audio, font, material, animation, p
 
 ## Publishing
 
-Repository visibility metadata is Private. Repository creation, Git push, tagging, catalog registration, and publishing remain manual Custom Package Manager actions.
+Repository visibility metadata is Public. Repository creation, Git push, tagging, catalog registration, and publishing remain manual Custom Package Manager actions.
