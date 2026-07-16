@@ -1,0 +1,16 @@
+{
+  "name": "com.actionfit.lava-rush.theme.catmerge.Editor",
+  "rootNamespace": "ActionFit.LavaRush.Theme.CatMerge.Editor",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,25 @@
+{
+  "name": "com.actionfit.lava-rush.theme.catmerge.Editor.Tests",
+  "rootNamespace": "ActionFit.LavaRush.Theme.CatMerge.Tests",
+  "references": [
+    "com.actionfit.lava-rush.ui",
+    "com.actionfit.lava-rush.theme.catmerge",
+    "UnityEngine.AudioModule"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
