@@ -6,9 +6,9 @@
 - Display name: ActionFit Lava Rush Cat Merge Theme
 - Repository: `https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git`
 - Repository visibility: Public
-- Current package version at generation time: `0.1.2`
+- Current package version at generation time: `0.1.3`
 - Unity version: `6000.2`
-- Runtime dependencies: `com.actionfit.lava-rush.ui@0.1.1` and `com.unity.modules.audio@1.0.0`
+- Runtime dependencies: `com.actionfit.lava-rush.ui@0.1.3` and `com.unity.modules.audio@1.0.0`
 
 ## Purpose And Boundary
 

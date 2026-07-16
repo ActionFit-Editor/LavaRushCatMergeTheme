@@ -11,8 +11,8 @@ After the public packages are published, add:
 ```json
 {
   "dependencies": {
-    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.1.1",
-    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.1.2"
+    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.1.3",
+    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.1.3"
   }
 }
 ```
