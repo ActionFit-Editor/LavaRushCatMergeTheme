@@ -1,6 +1,6 @@
 {
   "name": "com.actionfit.lava-rush.theme.catmerge",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "displayName": "ActionFit Lava Rush Cat Merge Theme",
   "description": "Redistribution-safe Cat Merge palette and presentation preset for ActionFit Lava Rush UI.",
   "unity": "6000.2",
@@ -8,7 +8,7 @@
     "name": "ActionFit"
   },
   "dependencies": {
-    "com.actionfit.lava-rush.ui": "0.1.6",
+    "com.actionfit.lava-rush.ui": "0.1.17",
     "com.unity.modules.audio": "1.0.0"
   }
 }

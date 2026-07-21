@@ -11,8 +11,8 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.1.3",
-    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.1.6"
+    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.1.17",
+    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.1.8"
   }
 }
 ```
@@ -26,7 +26,7 @@
 
 ## 에셋 경계
 
-이 패키지에는 복사된 LavaRush PNG, 오디오, 폰트, 머티리얼, 애니메이션, 프리팹, Addressable 항목 또는 서드파티 에셋이 없습니다. 현재 Cat Merge 프로젝트 에셋은 `Assets/_Project/Content/LavaRush`에 유지합니다. 자세한 내용은 `Documentation/AssetProvenance.md`와 `Third Party Notices.md`를 확인하세요. 이후 바이너리 에셋을 릴리스하려면 명확한 출처, GUID/참조 마이그레이션 및 시각 QA가 필요합니다.
+이 테마 패키지 자체에는 복사된 LavaRush PNG, 오디오, 폰트, 머티리얼, 애니메이션, 프리팹, Addressable 항목 또는 서드파티 에셋이 없습니다. 원본 14개 프리팹과 56개 PNG baseline은 dependency인 `com.actionfit.lava-rush.ui`가 소유합니다. 자세한 내용은 `Documentation/AssetProvenance.md`와 `Third Party Notices.md`를 확인하세요. 테마에 별도 바이너리 에셋을 추가하려면 명확한 출처, 단일 소유권, GUID/참조 마이그레이션 및 시각 QA가 필요합니다.
 
 ## 배포
 

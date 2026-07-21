@@ -6,9 +6,9 @@
 - Display name: ActionFit Lava Rush Cat Merge Theme
 - Repository: `https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git`
 - Repository visibility: Public
-- Current package version at generation time: `0.1.6`
+- Current package version at generation time: `0.1.8`
 - Unity version: `6000.2`
-- Runtime dependencies: `com.actionfit.lava-rush.ui@0.1.3` and `com.unity.modules.audio@1.0.0`
+- Runtime dependencies: `com.actionfit.lava-rush.ui@0.1.17` and `com.unity.modules.audio@1.0.0`
 
 ## Purpose And Boundary
 
@@ -32,7 +32,7 @@ Requested router entry:
 
 - Version `0.1.1` contains no project binary assets or third-party content. The palette and code are the complete released candidate surface.
 - `Documentation/AssetProvenance.md` is the shipped inclusion/exclusion matrix, and `Third Party Notices.md` must remain aligned with it.
-- Existing Cat Merge LavaRush assets, prefabs, `.meta` files, and Addressable keys stay in their current project paths.
+- This theme package owns no copied binary baseline. The original production prefabs and images are owned by `com.actionfit.lava-rush.ui`; Cat project Addressable compatibility remains project-owned until its separately validated package-path switch.
 - A later asset-bearing version requires ownership/license evidence for every file, a single canonical copy, explicit GUID/reference migration approval, and consumer validation. Public visibility does not waive that review.
 
 ## Package Tools Menu
