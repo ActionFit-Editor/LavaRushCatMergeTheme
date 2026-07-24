@@ -6,13 +6,13 @@
 - Display name: ActionFit Lava Rush Cat Merge Theme
 - Repository: `https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git`
 - Repository visibility: Public
-- Current package version at generation time: `0.1.9`
+- Current package version at generation time: `0.2.0`
 - Unity version: `6000.2`
-- Runtime dependencies: `com.actionfit.lava-rush.ui@0.1.23` and `com.unity.modules.audio@1.0.0`
+- Runtime dependencies: `com.actionfit.lava-rush.ui@0.2.0` and `com.unity.modules.audio@1.0.0`
 
 ## Purpose And Boundary
 
-This package provides a redistribution-safe Cat Merge color preset and `LavaRushCatMergePresentation`. It changes presentation defaults only and supplies package-owned Korean strings, a presentation profile, and synthesized UI cues. It does not own engine state, bootstrap action routing, project localization/sound systems, Addressables, project navigation, or reward behavior.
+Version `0.2.0` aligns the optional theme with the breaking Lava Rush UI `0.2.0` direct-controller baseline. `LavaRushCatMergePresentation` supplies adapters without generating a runtime hierarchy. This package provides a redistribution-safe Cat Merge color preset and synthesized UI cues. It remains outside the mandatory installer graph because Cat Runtime has no compiled dependency on it, and it does not own engine state, bootstrap action routing, project localization/sound systems, Addressables, project navigation, or reward behavior.
 
 ## Project Router Registration
 
@@ -30,7 +30,7 @@ Requested router entry:
 
 ## Asset Rights And Migration
 
-- Version `0.1.1` contains no project binary assets or third-party content. The palette and code are the complete released candidate surface.
+- Version `0.2.0` contains no project binary assets or third-party content. The palette, synthesized cues, and presentation adapter are the complete optional candidate surface for UI `0.2.0`.
 - `Documentation/AssetProvenance.md` is the shipped inclusion/exclusion matrix, and `Third Party Notices.md` must remain aligned with it.
 - This theme package owns no copied binary baseline. The original production prefabs and images are single-owned by `com.actionfit.lava-rush.ui`; the Cat project retains only the Addressable key and project-service adapter contracts.
 - A later asset-bearing version requires ownership/license evidence for every file, a single canonical copy, explicit GUID/reference migration approval, and consumer validation. Public visibility does not waive that review.

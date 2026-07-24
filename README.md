@@ -11,8 +11,8 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.1.23",
-    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.1.9"
+    "com.actionfit.lava-rush.ui": "https://github.com/ActionFit-Editor/LavaRushUI.git#0.2.0",
+    "com.actionfit.lava-rush.theme.catmerge": "https://github.com/ActionFit-Editor/LavaRushCatMergeTheme.git#0.2.0"
   }
 }
 ```
@@ -23,6 +23,8 @@
 - 다른 프레젠테이션 클래스를 사용한다면 초기화 전에 `LavaRushCatMergeTheme.Create()` 결과를 `LavaRushPresentation.ApplyThemeOverride`에 전달합니다.
 
 프리셋은 배경, 패널, 강조색, 용암, 진행도, 텍스트와 버튼 색상을 변경합니다. `LavaRushCatMergePresentation`은 한국어 UI 문자열, Cat Chef 프로필과 런타임에서 합성하는 짧은 화면/진행/보상 cue도 제공합니다. 중립 UI 흐름과 엔진의 모든 권한 동작은 그대로 유지합니다.
+
+`0.2.0`은 direct-controller UI `0.2.0`에 맞춘 선택 설치 프리셋입니다. 최종 Cat Runtime에는 이 패키지에 대한 compile dependency가 없으므로 top-level installer의 필수 묶음에는 포함되지 않습니다.
 
 ## 에셋 경계
 

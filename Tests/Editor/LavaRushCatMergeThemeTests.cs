@@ -18,16 +18,14 @@ namespace ActionFit.LavaRush.Theme.CatMerge.Tests
         }
 
         [Test]
-        public void Presentation_UsesCatMergePaletteAsDefault()
+        public void Presentation_ProvidesCatMergeAdaptersWithoutGeneratingHierarchy()
         {
             var root = new GameObject("Lava Rush Cat Merge Theme Test");
             try
             {
                 var presentation = root.AddComponent<LavaRushCatMergePresentation>();
-                presentation.Initialize();
 
-                Assert.That(presentation.Theme.Lava, Is.EqualTo(LavaRushCatMergeTheme.Create().Lava));
-                Assert.That(root.GetComponentInChildren<Canvas>(true), Is.Not.Null);
+                Assert.That(root.transform.childCount, Is.Zero);
                 Assert.That(root.GetComponent<AudioSource>(), Is.Not.Null);
                 Assert.That(presentation.GetProfile().DisplayName, Is.Not.Empty);
             }
