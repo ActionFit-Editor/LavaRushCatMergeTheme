@@ -21,9 +21,11 @@ MonoBehaviour:
   _description: "\uD504\uB85C\uC81D\uD2B8 \uBC14\uC774\uB108\uB9AC \uB9AC\uC18C\uC2A4
     \uC5C6\uC774 \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 Lava Rush UI\uC6A9 Cat Merge
     \uD314\uB808\uD2B8\uC640 \uD504\uB808\uC820\uD14C\uC774\uC158 preset\uC785\uB2C8\uB2E4."
-  _releaseNote: "- `com.actionfit.lava-rush.ui@0.2.4`\uC758 \uBC30\uACBD \uBB3C\uB9AC
-    \uC785\uB825 \uCC28\uB2E8 \uC218\uBA85\uACFC ReferenceBinding package-owned Editor
-    pump \uC804\uD658\uC5D0 dependency\uB97C \uC815\uB82C\uD588\uC2B5\uB2C8\uB2E4.\n-
-    palette, serialized theme, runtime \uD569\uC131 cue\uC640 \uC120\uD0DD \uC124\uCE58
-    \uACBD\uACC4\uB294 \uBCC0\uACBD\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4."
-  _dependenciesOverride: com.actionfit.lava-rush.ui@0.2.4;com.unity.modules.audio@1.0.0
+  _releaseNote: "- `<Role>Base` \uCD94\uC0C1 \uACC4\uC57D \uC6B0\uC120 \uC815\uCC45\uC5D0
+    \uB9DE\uCDB0 first-party \uACF5\uAC1C \uACC4\uC57D\uACFC \uC18C\uBE44\uC790\uB97C
+    \uC815\uB9AC\uD588\uC2B5\uB2C8\uB2E4.\n- C# \uC5B8\uC5B4 \uB610\uB294 \uC678\uBD80
+    API \uC81C\uC57D\uC774 \uC788\uB294 interface\uB9CC \uADFC\uAC70 \uC8FC\uC11D\uACFC
+    \uD568\uAED8 \uC720\uC9C0\uD588\uC2B5\uB2C8\uB2E4.\n- \uB7F0\uD0C0\uC784, \uC800\uC7A5,
+    \uBCF4\uC0C1, \uB85C\uADF8\uC778, \uC54C\uB9BC \uBC0F UI \uB3D9\uC791\uC740 \uBCC0\uACBD\uD558\uC9C0
+    \uC54A\uC558\uC2B5\uB2C8\uB2E4."
+  _dependenciesOverride: com.actionfit.lava-rush.ui@0.3.0;com.unity.modules.audio@1.0.0
